@@ -149,7 +149,7 @@ h1 {
 
 .logo {
     float: right;
-    background-image: url(../img/plane.png);
+    background-image: url(../img/plane.PNG);
     width: 550px;
     height: 128px;
     background-repeat: no-repeat;
