@@ -1,0 +1,379 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap {
+    margin: auto;
+    max-width: 1000px;
+    font-family: 微軟正黑體;
+}
+
+
+h1 {
+    display: inline;
+    font-size: 50px;
+    font-family: MV Boli;
+    padding: 20px;
+    float: left;
+}
+
+.logo {
+    float: right;
+    background-image: url(../img/plane.png);
+    width: 550px;
+    height: 128px;
+    background-repeat: no-repeat;
+}
+
+
+.topic {
+    float: left;
+    margin-left: 20px;
+}
+
+.topic p {
+    line-height: 25px;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+.meun {
+    float: left;
+    margin-top: 40px;
+}
+
+.topa {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    line-height: 40px;
+    width: 180px;
+    cursor: pointer;
+}
+
+
+
+.topb {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    line-height: 40px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.topc {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    line-height: 40px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.topa:hover {
+    border-bottom: 1px solid #AAAAAA
+}
+
+.topb:hover {
+    border-bottom: 1px solid #AAAAAA
+}
+
+.topc:hover {
+    border-bottom: 1px solid #AAAAAA
+}
+
+.bara {
+    display: none;
+}
+
+.barb {
+    display: none;
+}
+
+.barc {
+    display: none;
+}
+
+.meun li a {
+    display: block;
+    width: 165px;
+    height: 30px;
+    margin-bottom: 2px;
+    margin-left: 25px;
+    background-color: #AAAAAA;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.meun a:hover {
+    font-size: 17px;
+}
+
+.flexslider {
+    width: 65%;
+    float: right;
+    padding: 10px;
+    border-bottom: 2px solid #F8F8FF;
+}
+
+
+
+.flex-caption {
+    max-width: 100%;
+    padding: 2%;
+    background: #AAAAAA;
+    color: #fff;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+
+.flex-control-nav li {
+    margin: 6px;
+    display: inline-block;
+    zoom: 1;
+}
+
+.flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #666;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #DDDDDD;
+}
+
+.flex-prev {
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.flex-next {
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+
+
+.footer {
+    margin-top: 5px;
+    height: 20px;
+    background-color: white;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+
+    h1 {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .logo {
+        display: none;
+        float: right;
+        background-image: url(../img/plane.png);
+        width: 550px;
+        height: 128px;
+    }
+
+
+    .topic {
+        float: none;
+        padding: 20px;
+    }
+
+    .topic p {
+        text-align: center;
+    }
+
+    .meun {
+        float: none;
+        margin: auto;
+    }
+
+    .topa {
+        margin: 2px auto 2px auto;
+        width: 100%;
+    }
+
+
+    .topb {
+        margin: 2px auto 2px auto;
+        width: 100%;
+    }
+
+    .topc {
+        margin: 2px auto 2px auto;
+        width: 100%;
+    }
+
+
+    .meun li a {
+        height: 30px;
+        margin: 2px auto 2px auto;
+    }
+
+    .flexslider {
+        float: none;
+        margin: auto;
+    }
+}
